@@ -10,7 +10,6 @@ A collection of small Python projects I built while learning programming fundame
 | 🎮 Rock Paper Scissors | A simple command-line game where you play against the computer. |
 | ✅ Task Manager | Manage tasks by adding, removing, viewing, saving, and loading them using text files. |
 | 📁 File Handling | A small project demonstrating file creation, reading, and writing in Python. |
-| 🧰 Python Multi Tool | A menu-driven application that combines multiple mini utilities such as a calculator, password generator, number guessing game, and random joke generator. |
 
 ---
 
@@ -67,7 +66,6 @@ python-playground/
 ├── rock-paper-scissors/
 ├── task-manager/
 ├── file-handling/
-├── python-multitool/
 └── README.md
 ```
 
