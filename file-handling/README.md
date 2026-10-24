@@ -1,56 +1,14 @@
-# File Handling 📁
+# File Handling
 
-A beginner-friendly command-line application that demonstrates basic file handling operations in Python.
+A minimal task list for practicing file creation, appending and reading.
 
-## Features
-
-- Create a data folder automatically
-- Add multiple tasks
-- Store tasks in a text file
-- View saved tasks
-- Input validation
-- Exception handling
-
-## Concepts Practiced
-
-- File Handling
-- Functions
-- Loops
-- Exception Handling
-- `os` Module
-- User Input Validation
-
-## Folder Structure
-
-```
-file-handling/
-│
-├── data/
-│   └── tasks.txt
-│
-├── files.py
-└── README.md
-```
-
-## Run
+From the repository root:
 
 ```bash
-python files.py
+python file-handling/files.py
 ```
 
-## Sample Output
+Add tasks with option 1, view them with option 2, or exit with option 3. The program creates a `data/` folder and appends non-empty tasks to `data/tasks.txt`, relative to your current folder.
 
-```
-====== SIMPLE TASK MANAGER ======
-1. Add Tasks
-2. View Tasks
-3. Exit
+Running this and the larger Task Manager from the same folder makes them share that task file.
 
-Enter choice: 1
-How many tasks do you want to add? : 2
-
-Task 1: Learn Python
-Task 2: Push to GitHub
-
- Tasks added successfully!
-```

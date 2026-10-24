@@ -1,25 +1,12 @@
-# Task Manager ✅
+# Task Manager
 
-A command-line task manager built in Python that lets users manage tasks using text files.
+A text-file task list with add, remove, view, save and load actions.
 
-## Features
-
-- Add tasks
-- Remove tasks
-- View tasks
-- Save tasks
-- Load saved tasks
-
-## Concepts Practiced
-
-- Object-Oriented Programming
-- File Handling
-- Exception Handling
-- Loops
-- User Input Validation
-
-## Run
+From the repository root:
 
 ```bash
-python to-do.py
+python task-manager/to-do.py
 ```
+
+Tasks are kept in `data/tasks.txt`, relative to the folder you run from. Save copies the current list to `data/saved_tasks.txt`; Load displays that snapshot without restoring it into the active list. Choose menu option 6 to exit.
+

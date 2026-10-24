@@ -1,19 +1,12 @@
 # Calculator
 
-A command-line calculator that performs basic arithmetic operations.
+Addition, subtraction, multiplication, division and powers, implemented with a small `Calculator` class.
 
-## Features
-
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Power
-
-## Run
+From the repository root:
 
 ```bash
-python calc.py
+python calculator/calc.py
 ```
 
-Then follow the prompts to enter two numbers and an operator.
+Enter two numbers and an operator: `+`, `-`, `*`, `/` or `**`. The final prompt can display all five results. Non-numeric input is not handled yet; division by zero prints an error and returns no result.
+

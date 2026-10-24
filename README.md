@@ -1,93 +1,27 @@
-# Python Playground 🐍
+# Python Playground
 
-A collection of small Python projects I built while learning programming fundamentals. This repository is where I practice new concepts, improve my coding skills, and experiment with different ideas.
+Four small command-line projects for practicing Python: arithmetic, game logic, classes and text-file storage. They use only the standard library.
 
-## 📂 Projects
+## Projects
 
-| Project | Description |
-|---------|-------------|
-| 🧮 Calculator | Performs basic arithmetic operations like addition, subtraction, multiplication, division, and power. |
-| 🎮 Rock Paper Scissors | A simple command-line game where you play against the computer. |
-| ✅ Task Manager | Manage tasks by adding, removing, viewing, saving, and loading them using text files. |
-| 📁 File Handling | A small project demonstrating file creation, reading, and writing in Python. |
+| Project | What it does | Run from the repository root |
+| --- | --- | --- |
+| [Calculator](calculator/) | Arithmetic and powers using a `Calculator` class | `python calculator/calc.py` |
+| [Rock Paper Scissors](rock-paper-scissors/) | Play against a random computer choice | `python rock-paper-scissors/rock_paper.py` |
+| [Task Manager](task-manager/) | Add, remove, view and save tasks | `python task-manager/to-do.py` |
+| [File Handling](file-handling/) | A smaller add-and-view task list | `python file-handling/files.py` |
 
----
+## Run
 
-## 💻 Concepts Practiced
-
-- Variables and Data Types
-- Conditional Statements
-- Loops
-- Functions
-- Object-Oriented Programming (OOP)
-- File Handling
-- Exception Handling
-- Python Modules (`os`, `random`, `time`)
-- User Input Validation
-
----
-
-##  Getting Started
-
-Clone the repository:
+Requires Python 3. No packages need to be installed.
 
 ```bash
-git clone https://github.com/your-username/python-playground.git
-```
-
-Move into the project directory:
-
-```bash
+git clone https://github.com/Pranav-Teja-Aluvala/python-playground.git
 cd python-playground
-```
-
-Run any project using Python.
-
-Example:
-
-```bash
 python calculator/calc.py
 ```
 
-or
+The two task-list programs use `data/tasks.txt` relative to your current folder. Running both from the repository root makes them share that file. Task Manager also writes `data/saved_tasks.txt`; its Load action displays the saved copy.
 
-```bash
-python task-manager/to-do.py
-```
+These are learning exercises. Input handling is still uneven: the calculator expects numeric inputs, and Rock Paper Scissors restarts through recursive calls after a loss or tie.
 
----
-
-##  Repository Structure
-
-```
-python-playground/
-│
-├── calculator/
-├── rock-paper-scissors/
-├── task-manager/
-├── file-handling/
-└── README.md
-```
-
----
-
-##  Goals
-
-This repository will continue to grow as I learn Python and build more projects. Future additions may include:
-
-- Password Manager
-- Expense Tracker
-- Contact Book
-- Quiz Application
-- Flask-based versions of existing projects
-- More Python mini-projects
-
----
-
-## 📈 Learning Journey
-
-This repository is part of my programming journey. I'm continuously learning new concepts and improving existing projects as my skills grow.
-
-If you have suggestions or feedback, feel free to open an issue or share your ideas!
-
-⭐ Thanks for visiting!
