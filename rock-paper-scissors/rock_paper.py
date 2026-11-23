@@ -1,5 +1,6 @@
 def rock_paper_scissor(user):
     import random
+    user = user.strip().lower()
     robot = random.choice(['rock','paper','scissor'])
     if user == robot:
         print("IT'S A TIE!\n>We both choose ",user)
@@ -22,5 +23,5 @@ def greet():
     print()  
 
 greet()
-user = input("Choose Rock/Paper/scissor: ").lower()
+user = input("Choose Rock/Paper/scissor: ")
 won = rock_paper_scissor(user)
