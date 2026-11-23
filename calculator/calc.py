@@ -24,7 +24,7 @@ class Calculator:
         return self.a ** self.b 
 
 a = float(input("Enter First Number: "))
-op = input("Enter the operator(+,-,*,/,**): ")
+op = input("Enter the operator(+,-,*,/,**): ").strip()
 b = float(input("Enter Second Number: "))
 cal = Calculator(a,b)
 
