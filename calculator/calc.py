@@ -23,9 +23,17 @@ class Calculator:
     def power(self):
         return self.a ** self.b 
 
-a = float(input("Enter First Number: "))
+def read_number(prompt):
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("Please enter a valid number.")
+
+
+a = read_number("Enter First Number: ")
 op = input("Enter the operator(+,-,*,/,**): ").strip()
-b = float(input("Enter Second Number: "))
+b = read_number("Enter Second Number: ")
 cal = Calculator(a,b)
 
 if op == '+':
